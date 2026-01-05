@@ -1,5 +1,11 @@
 # AI Recruiting Agent
 
+![CI Pipeline](https://github.com/AdvancedBeka/ai-recruiting-agent/workflows/CI%20Pipeline/badge.svg)
+![Deploy](https://github.com/AdvancedBeka/ai-recruiting-agent/workflows/Deploy%20to%20Production/badge.svg)
+![Python](https://img.shields.io/badge/python-3.9%20%7C%203.10%20%7C%203.11-blue)
+![Docker](https://img.shields.io/badge/docker-ready-blue)
+![License](https://img.shields.io/badge/license-MIT-green)
+
 Прототип AI-агента для автоматизации процесса рекрутинга.
 
 > 📖 **Новичок?** Начните с [START_HERE.md](START_HERE.md) для быстрого ознакомления!
@@ -200,11 +206,34 @@ python test_email.py
 - **130%** покрытие требований
 - **Все фазы завершены** ✅
 
+## 🔄 CI/CD Pipeline
+
+Проект использует **GitHub Actions** для автоматизации:
+
+### 🧪 Continuous Integration
+- ✅ Автоматическое тестирование на Python 3.9, 3.10, 3.11
+- ✅ Code linting (flake8, black, isort)
+- ✅ Type checking (mypy)
+- ✅ Security scanning (safety, bandit)
+- ✅ Docker image builds
+- ✅ Code coverage reporting
+
+### 🚀 Continuous Deployment
+- ✅ Автоматическая сборка Docker images
+- ✅ Push в Docker Hub при release
+- ✅ Version tagging
+- ✅ Manual deployment trigger
+
+Подробнее: [.github/README.md](.github/README.md)
+
+---
+
 ## 🎯 Статус: ГОТОВ К PRODUCTION
 
 ✅ Все требования выполнены
 ✅ LLM matcher работает с объяснениями
 ✅ Docker готов к deployment
+✅ **CI/CD pipeline настроен** 🆕
 ✅ Документация complete
 ✅ API + UI готовы
 
