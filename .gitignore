@@ -1,0 +1,55 @@
+# Environment variables
+.env
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyc
+*.pyo
+*.so
+
+# Virtual Environment
+venv/
+env/
+ENV/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Data and uploads (exclude to keep repo clean)
+data/resumes/*.pdf
+data/resumes/*.docx
+data/resumes/*.doc
+data/resumes/*.txt
+data/processed_emails.json
+
+# Logs
+*.log
+
+# Build artifacts
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# Pytest
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Temporary files
+*.tmp
+*.bak
+*.swp
+test_fix.py
